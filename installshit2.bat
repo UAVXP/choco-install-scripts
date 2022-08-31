@@ -1,5 +1,7 @@
 @echo off
 
+rem Important things
+
 choco install -y^
  vcredist-all^
  dotnet3.5^
@@ -22,3 +24,4 @@ choco install -y^
  ChocolateyGUI
 
 pause
+exit

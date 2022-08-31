@@ -1,5 +1,8 @@
 @echo off
 
+rem Updating installed packages
+
 choco upgrade all
 
-rem pause
+pause
+exit

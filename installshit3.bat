@@ -1,5 +1,7 @@
 @echo off
 
+rem Additional packages that could be handy
+
 rem wavosaur^
 
 choco install -y^
@@ -11,3 +13,4 @@ choco install -y^
  dropbox
 
 pause
+exit
