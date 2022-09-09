@@ -10,7 +10,8 @@ choco install -y^
  audacity-ffmpeg^
  jdk8^
  4k-video-downloader^
- dropbox
+ dropbox^
+ revo-uninstaller
 
 pause
 exit
