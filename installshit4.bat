@@ -8,7 +8,11 @@ choco install -y visualstudio2022-workload-nativedesktop --package-parameters "-
 choco install -y visualstudio2022-workload-manageddesktop --package-parameters "--remove Microsoft.VisualStudio.Component.DotNetModelBuilder"
 
 rem Git stuff
+choco install -y git --params "/GitAndUnixToolsOnPath /NoAutoCrlf /NoShellIntegration /WindowsTerminalProfile /DefaultBranchName:master /Editor:Notepad++"
 choco install -y github-desktop tortoisegit
+
+rem Office 2019
+choco install -y office2019proplus
 
 pause
 exit

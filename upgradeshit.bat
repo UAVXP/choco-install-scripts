@@ -2,7 +2,7 @@
 
 rem Updating installed packages
 
-choco upgrade all
+choco upgrade -y all
 
 pause
 exit
