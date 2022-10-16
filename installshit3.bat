@@ -2,7 +2,7 @@
 
 rem Additional packages that could be handy
 
-rem wavosaur^
+rem wavosaur
 
 choco install -y^
  audacity^
