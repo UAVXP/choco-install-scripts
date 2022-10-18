@@ -12,7 +12,7 @@ choco install -y git --params "/GitAndUnixToolsOnPath /NoAutoCrlf /NoShellIntegr
 choco install -y github-desktop tortoisegit
 
 rem Office 2019
-choco install -y office2019proplus
+choco install -y office2019proplus --params "/Language:ru-RU"
 
 pause
 exit
