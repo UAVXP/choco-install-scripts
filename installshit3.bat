@@ -11,7 +11,7 @@ choco install -y^
  jdk8^
  4k-video-downloader^
  dropbox^
- revo-uninstaller
+ steam-client
 
 pause
 exit

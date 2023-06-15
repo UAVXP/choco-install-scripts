@@ -7,7 +7,6 @@ choco install -y^
  dotnet3.5^
  googlechrome^
  directx^
- steam-client^
  notepadplusplus^
  qbittorrent^
  k-litecodecpack-standard^
