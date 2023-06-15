@@ -3,14 +3,14 @@
 rem Additional packages that could be handy
 
 rem wavosaur
+rem dropbox
+rem jdk8
 
 choco install -y^
  audacity^
  audacity-lame^
  audacity-ffmpeg^
- jdk8^
  4k-video-downloader^
- dropbox^
  steam-client
 
 pause

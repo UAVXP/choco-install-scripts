@@ -9,11 +9,11 @@ choco install -y^
  googlechrome^
  directx^
  notepadplusplus^
- qbittorrent^
- k-litecodecpack-standard^
  7zip^
  irfanview^
  irfanviewplugins^
+ k-litecodecpack-standard^
+ qbittorrent^
  paint.net^
  javaruntime^
  winmerge^
