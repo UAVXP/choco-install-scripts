@@ -1,5 +1,3 @@
-@echo off
-
 rem Additional packages that could be handy
 
 rem wavosaur
@@ -13,5 +11,4 @@ choco install -y^
  dropbox^
  revo-uninstaller
 
-pause
-exit
+exit /B

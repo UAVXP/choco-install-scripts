@@ -1,5 +1,3 @@
-@echo off
-
 rem Work and development packages
 
 rem Office 2019
@@ -20,5 +18,4 @@ rem Git stuff
 choco install -y git --params "/GitAndUnixToolsOnPath /NoAutoCrlf /NoShellIntegration /WindowsTerminalProfile /DefaultBranchName:master /Editor:Notepad++"
 choco install -y github-desktop tortoisegit
 
-pause
-exit
+exit /B

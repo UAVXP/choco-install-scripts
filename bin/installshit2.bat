@@ -1,5 +1,3 @@
-@echo off
-
 rem Important things
 
 choco install -y^
@@ -23,5 +21,4 @@ choco install -y^
  telegram^
  ChocolateyGUI
 
-pause
-exit
+exit /B

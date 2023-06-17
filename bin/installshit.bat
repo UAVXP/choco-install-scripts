@@ -1,12 +1,10 @@
-@echo off
-
 rem Chocolatey installation and configuration
 
 rem This will return ERRORLEVEL 1 if Choco is installed
 @choco
 if "%ERRORLEVEL%"=="1" (
 	echo Chocolatey is already installed!
-	goto done
+	exit /B 1
 )
 
 echo Trying to install Chocolatey...
@@ -22,8 +20,4 @@ choco feature enable -n=allowEmptyChecksums
 choco feature enable -n=allowGlobalConfirmation
 
 echo Done!
-goto done
-
-:done
-pause
-exit
+exit /B 0
