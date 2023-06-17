@@ -3,15 +3,20 @@
 rem Additional packages that could be handy
 
 rem wavosaur
+ REM audacity^
+ REM audacity-lame^
+ REM audacity-ffmpeg^
+ REM dropbox^
+ REM revo-uninstaller
+ REM jdk8^
 
 choco install -y^
- audacity^
- audacity-lame^
- audacity-ffmpeg^
- jdk8^
+ discord^
+ itunes^
+ epicgameslauncher^
+ ubisoft-connect^
  4k-video-downloader^
- dropbox^
- revo-uninstaller
+ blender
 
 pause
 exit

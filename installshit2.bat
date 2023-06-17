@@ -2,6 +2,10 @@
 
 rem Important things
 
+rem winmerge
+rem putty.install
+rem winscp
+
 choco install -y^
  vcredist-all^
  dotnet3.5^
@@ -14,13 +18,11 @@ choco install -y^
  7zip^
  irfanview^
  irfanviewplugins^
- paint.net^
  javaruntime^
- winmerge^
- putty.install^
- winscp^
+ warp^
  wiztree^
  telegram^
+ viber^
  ChocolateyGUI
 
 pause
